@@ -5,7 +5,7 @@ It's a simple yet functional shell that supports job control.
 
 ## Features
 
-This is a non exhaustive list of the features of our shell:
+This is a non-exhaustive list of the features of our shell:
 
 - Built-in commands: `cd`, `exit`, `jobs`, `fg`, `bg`, `kill` and `?` (environment variables are not updated, so this is the same as `echo $?`)
 - Redirections: `>`, `>|`, `>>`, `2>`, `2>|`, `2>>`, `<`
