@@ -1,11 +1,35 @@
 # jsh-tyy - Linux Job Control Shell
 
-This project was carried out as part of an academic project for Operating Systems 5.
-It's a simple yet functional shell that supports job control.
+## Description
+
+This project was carried out as part of our Operating Systems course, where our team developed a simple yet functional shell with extensive features including job control tailored for Linux systems, demonstrating our ability to harness the power of the C programming language and Linux system calls.
+
+To thoroughly develop this project, our team of three established and followed efficient development workflow including proper testing practices by leveraging a Git workflow and tools such as :
+
+- The `GNU Compiler Collection (gcc)` and `GNU Make (make)` to facilitate compilation and build processes.
+- The `GNU Debugger (gdb)` and `valgrind` to debug memory and file descriptor issues.
+- The simple [`cinta`](https://github.com/Yag000/cinta) test framework developed by [Yago Iglesias](https://github.com/Yag000), along with scripts to establish unit tests.
+  
+As part of our development and testing process, we also used a continuous integration (CI) pipeline, hosted and managed via GitLab.
+
+These practices allowed us to deliver a comprehensive, stable, and reliable product that fulfilled the imposed requirements in a timely and efficient manner, earning us a grade of 20 out of 20.
+
+## Table of Contents
+- [jsh-tyy - Linux Job Control Shell](#jsh-tyy---linux-job-control-shell)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Running the shell](#running-the-shell)
+    - [Prerequisites](#prerequisites)
+    - [Compilation](#compilation)
+    - [Execution](#execution)
+  - [Testing](#testing)
+  - [More information (in French)](#more-information-in-french)
+  - [Authors](#authors)
 
 ## Features
 
-This is a non exhaustive list of the features of our shell:
+This is a non-exhaustive list of the features of our shell:
 
 - Built-in commands: `cd`, `exit`, `jobs`, `fg`, `bg`, `kill` and `?` (environment variables are not updated, so this is the same as `echo $?`)
 - Redirections: `>`, `>|`, `>>`, `2>`, `2>|`, `2>>`, `<`
